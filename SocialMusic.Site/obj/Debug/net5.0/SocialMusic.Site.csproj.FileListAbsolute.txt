@@ -200,3 +200,5 @@ C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\ref
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\SocialMusic.Site.pdb
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\SocialMusic.Site.genruntimeconfig.cache
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\SocialMusic.Site.csprojAssemblyReference.cache
+C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\Razor\Views\Images\Index.cshtml.g.cs
+C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\Razor\Views\Account\Index.cshtml.g.cs

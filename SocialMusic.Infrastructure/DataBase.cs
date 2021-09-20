@@ -20,5 +20,6 @@ namespace SocialMusic.Infrastructure
 
         //protected override void OnConfiguring(DbContextOptionsBuilder options) => options.UseSqlServer(configuration.GetConnectionString("SocialMusicDb"));
         public DbSet<Post> Post { get; set;}
+        public DbSet<Users> Users { get; set; } 
     }
 }
