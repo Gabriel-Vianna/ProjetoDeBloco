@@ -23,37 +23,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="~/css/gallery.css"/>
-    <script src="~/js/gallery.js"></script>
+
+    <link rel="stylesheet" href="~/css/spotify.css" />
+    <script src="~/js/spotify.js"></script>
 </head>
 <body>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <!--<div class="se-pre-con"></div>-->
     <div class="theme-layout">
-        <section>
-            <div class="feature-photo">
-                <figure><img src="images/resources/timeline-1.jpg" alt=""></figure>
-                <div class="container-fluid">
-                    <div class="row merged">
-                        <div class="col-lg-2 col-sm-3">
-                            <div class="user-avatar">
-                                <figure>
-                                    <img src="@Model.User.ProfileImage" alt="">
-                                    <form class="edit-phto">
-                                        <i class="fa fa-camera-retro"></i>
-                                        <label class="fileContainer">
-                                            Edit Display Photo
-                                            <input type="file" />
-                                        </label>
-                                    </form>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><!-- top area -->
-
         <section>
             <div class="gap gray-bg">
                 <div class="container-fluid">
@@ -63,45 +40,38 @@
                                 <div class="col-lg-12">
                                     <div class="central-meta">
                                         <div class="container">
-                                            <div class="row">
-                                                <div class="row">
-                                                    @foreach (var post in Model.Posts)
-                                                    {
-                                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                                                            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
-                                                               data-image="@post.Image"
-                                                               data-target="#image-gallery">
-                                                                <img class="img-thumbnail"
-                                                                     src="@post.Image"
-                                                                     alt="Another alt text">
-                                                            </a>
-                                                        </div>
-                                                    }
-                                                    <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                                        <div class="modal-dialog modal-lg">
-                                                            <div class="modal-content">
-                                                                <div class="modal-header">
-                                                                    <h4 class="modal-title" id="image-gallery-title"></h4>
-                                                                    <button type="button" class="close" data-dismiss="modal">
-                                                                        <span aria-hidden="true">×</span><span class="sr-only">Close</span>
-                                                                    </button>
-                                                                </div>
-                                                                <div class="modal-body">
-                                                                    <img id="image-gallery-image" class="img-responsive col-md-12" src="">
-                                                                </div>
-                                                                <div class="modal-footer">
-                                                                    <button type="button" class="btn btn-secondary float-left" id="show-previous-image">
-                                                                        <i class="fa fa-arrow-left"></i>
-                                                                    </button>
+                                            
+                                            <!------ Include the above in your HEAD tag ---------->
 
-                                                                    <button type="button" id="show-next-image" class="btn btn-secondary float-right">
-                                                                        <i class="fa fa-arrow-right"></i>
-                                                                    </button>
-                                                                </div>
+                                            <div class="container emp-profile">
+                                                <form method="post">
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <div class="profile-img">
+                                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog" alt="" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="profile-head">
+                                                                <h5>
+                                                                    Nome usuário
+                                                                </h5>
+                                                                <h6>
+                                                                    <a>Link para perfil spotify</a>
+                                                                </h6>
+                                                                <p class="proile-rating">Seguidores : <span>10</span></p>
+                                                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Timeline</a>
+                                                                    </li>
+                                                                </ul>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </form>
                                             </div>
 
                                             <div class="lodmore"><button class="btn-view btn-load-more"></button></div>

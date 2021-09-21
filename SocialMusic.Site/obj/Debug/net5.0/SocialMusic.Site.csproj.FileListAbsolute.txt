@@ -202,3 +202,4 @@ C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\Soc
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\ref\SocialMusic.Site.dll
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\SocialMusic.Site.pdb
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\SocialMusic.Site.genruntimeconfig.cache
+C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\Razor\Views\Spotify\Index.cshtml.g.cs
