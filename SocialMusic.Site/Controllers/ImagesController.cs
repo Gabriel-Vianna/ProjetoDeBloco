@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using SocialMusic.Site.Models.Posts;
 using Newtonsoft.Json;
+using SocialMusic.Site.Models.Users;
 
 namespace SocialMusic.Site.Controllers
 {
@@ -22,11 +23,25 @@ namespace SocialMusic.Site.Controllers
         {
             var viewModel = new IndexViewModel();
 
-            var result = await postman.GetAsync("https://localhost:44335/api/posts");
+            var resultPosts = await postman.GetAsync("https://localhost:44335/api/posts");
+
+            var contentPosts = await resultPosts.Content.ReadAsStringAsync();
+
+            List<PostModel> posts = JsonConvert.DeserializeObject<List<PostModel>>(contentPosts);
+
+            var email = User.Identity.Name;
+
+            var result = await postman.GetAsync("https://localhost:44335/api/users?email=" + email);
 
             var content = await result.Content.ReadAsStringAsync();
 
-            List<PostModel> posts = JsonConvert.DeserializeObject<List<PostModel>>(content);
+            UsersModel user = JsonConvert.DeserializeObject<UsersModel>(content);
+
+            if (user == null)
+            {
+                user = new UsersModel();
+            }
+            viewModel.User = user;
 
             viewModel.Posts = posts;
 

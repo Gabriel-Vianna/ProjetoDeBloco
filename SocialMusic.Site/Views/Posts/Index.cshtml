@@ -226,14 +226,12 @@
                                                     <div class="friend-info">
                                                         <img src="@Model.User.ProfileImage" alt="" style="width: 40px; height: 50px">
                                                         <div class="friend-name">
-                                                            <ins><a href="time-line.html" title="">@post.Author</a></ins>
+                                                            <ins><a href="time-line.html" title="">@Model.User.Name</a></ins>
                                                             <span>publicado em: @post.CreatedAt</span>
                                                         </div>
                                                         <div class="post-meta">
                                                             <img src="@post.Image" alt="">
-
                                                             <div class="description">
-
                                                                 <p>
                                                                     @post.Text
                                                                 </p>
@@ -247,20 +245,20 @@
                                 </div><!-- centerl meta -->
                                 <div class="col-lg-3">
                                     <aside class="sidebar static right">
-                                        <div style="top: 30px;" class="widget stick-widget">
-                                            <h4 class="widget-title">Informações</h4>
+                                        <div class="widget">
+                                            <h4 class="widget-title" style="width: 230px;">Informações</h4>
                                             <ul class="short-profile">
                                                 <li>
                                                     <span>Sobre</span>
-                                                    <p><p><a href="https://accounts.spotify.com/pt-BR/authorize?client_id=da0d88886265462db793916f1691f55e&redirect_uri=https:%2F%2Flocalhost:44382/Posts&scope=user-top-read%20user-read-recently-played&response_type=token">clique aqui</a></p></p>
+                                                    <p>@Model.User.About</p>
                                                 </li>
                                                 <li>
-                                                    <span>Séries favoritas</span>
-                                                    <p> </p>
+                                                    <span>Artista Favorito</span>
+                                                    <p>@Model.User.FavotireArtist</p>
                                                 </li>
                                                 <li>
-                                                    <span>Artistas favoritos</span>
-                                                    <p></p>
+                                                    <span>Música Favorita</span>
+                                                    <p>@Model.User.FavotireSong</p>
                                                 </li>
                                             </ul>
                                         </div>

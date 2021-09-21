@@ -7,6 +7,6 @@ namespace SocialMusic.Site.Models.Users
 {
     public class UsersViewModel
     {
-        public UsersModel User { get; set; } = new UsersModel();
+        public UsersModel User { get; set; }
     }
 }

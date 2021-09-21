@@ -35,24 +35,28 @@ namespace SocialMusic.Core
         {
             Users userFromDb = usersRepository.Find(email);
 
-            Users createOrUpdateUser = new Users();
+            Users createUser = new Users();
 
+            if(profileImage == "")
+            {
+                profileImage = userFromDb.ProfileImage;
+            }
 
             if(userFromDb == null)
             {
-                createOrUpdateUser.Name = name;
-                createOrUpdateUser.Email = email;
-                createOrUpdateUser.Age = age;
-                createOrUpdateUser.Gender = gender;
-                createOrUpdateUser.Country = country;
-                createOrUpdateUser.State = state;
-                createOrUpdateUser.City = city;
-                createOrUpdateUser.About = about;
-                createOrUpdateUser.FavotireArtist = favoriteArtist;
-                createOrUpdateUser.FavotireSong = favoriteSong;
-                createOrUpdateUser.MusicStyle = musicStyle;
-                createOrUpdateUser.ProfileImage = profileImage;
-                usersRepository.Save(createOrUpdateUser);
+                createUser.Name = name;
+                createUser.Email = email;
+                createUser.Age = age;
+                createUser.Gender = gender;
+                createUser.Country = country;
+                createUser.State = state;
+                createUser.City = city;
+                createUser.About = about;
+                createUser.FavotireArtist = favoriteArtist;
+                createUser.FavotireSong = favoriteSong;
+                createUser.MusicStyle = musicStyle;
+                createUser.ProfileImage = profileImage;
+                usersRepository.Save(createUser);
             }else
             {
                 userFromDb.Name = name;

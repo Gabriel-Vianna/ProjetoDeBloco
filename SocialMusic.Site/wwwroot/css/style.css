@@ -52,11 +52,28 @@ Last change:  4/september/18
 }
 
 
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#image-gallery .modal-footer {
+    display: block;
+}
+
+.thumb {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.modal-backdrop.show{
+    display: none !important;
+}
 /*===============
 ***General Styling 
 ===============*/
-html,body{
-	font-family: "Muli", "Segoe Ui";
+html, body {
+    font-family: "Muli", "Segoe Ui";
 }
 body {
     float: left;

@@ -229,7 +229,7 @@
                         <div class="col-lg-2 col-sm-3">
                             <div class="user-avatar">
                                 <figure>
-                                    <img src="images/resources/profile-avatar.png" alt="">
+                                    <img src="@Model.User.ProfileImage" alt="">
                                     <form class="edit-phto">
                                         <i class="fa fa-camera-retro"></i>
                                         <label class="fileContainer">
@@ -258,21 +258,21 @@
                                             <form method="post" action="/Account/EditInformation" enctype="multipart/form-data">
                                                 <div class="dob" style="margin: 40px 0;">
                                                     <div class="form-group">
-                                                        <input type="text" id="input" name="name" />
+                                                        <input type="text" id="input" name="name" value="@Model.User.Name"/>
                                                         <label class="control-label" for="input">Nome</label><i class="mtrl-select"></i>
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="number" name="age" />
+                                                        <input type="number" name="age" value="@Model.User.Age"/>
                                                         <label class="control-label" for="input">Idade</label><i class="mtrl-select"></i>
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="text" id="input" name="gender" />
+                                                        <input type="text" id="input" name="gender" value="@Model.User.Gender"/>
                                                         <label class="control-label" for="input">Gênero</label><i class="mtrl-select"></i>
                                                     </div>
                                                 </div>
                                                 <div class="dob" style="margin: 40px 0;">
                                                     <div class="form-group">
-                                                        <select name="country">
+                                                        <select name="country" value="@Model.User.Country">
                                                             <option value="country">Selecione seu país</option>
                                                             <option value="AFG">Afghanistan</option>
                                                             <option value="ALA">Ƭand Islands</option>
@@ -305,7 +305,7 @@
                                                             <option value="BIH">Bosnia and Herzegovina</option>
                                                             <option value="BWA">Botswana</option>
                                                             <option value="BVT">Bouvet Island</option>
-                                                            <option value="BRA">Brasil</option>
+                                                            <option value="BRA" selected>Brasil</option>
                                                             <option value="IOT">British Indian Ocean Territory</option>
                                                             <option value="BRN">Brunei Darussalam</option>
                                                             <option value="BGR">Bulgaria</option>
@@ -527,31 +527,31 @@
                                                         <label class="control-label" for="input">País</label><i class="mtrl-select"></i>
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="text" name="state" />
+                                                        <input type="text" name="state" value="@Model.User.State"/>
                                                         <label class="control-label" for="input">Estado</label><i class="mtrl-select"></i>
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="text" name="city" />
+                                                        <input type="text" name="city" value="@Model.User.City"/>
                                                         <label class="control-label" for="input">Cidade</label><i class="mtrl-select"></i>
                                                     </div>
                                                 </div>
                                                 <div class="dob" style="margin: 40px 0;">
                                                     <div class="form-group">
-                                                        <input type="text" id="input" name="favoriteArtist" />
+                                                        <input type="text" id="input" name="favoriteArtist" value="@Model.User.FavotireArtist"/>
                                                         <label class="control-label" for="input">Artista favorito</label><i class="mtrl-select"></i>
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="text" name="favoriteSong" />
+                                                        <input type="text" name="favoriteSong" value="@Model.User.FavotireSong"/>
                                                         <label class="control-label" for="input">Música favorita</label><i class="mtrl-select"></i>
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="text" id="input" name="musicStyle" />
+                                                        <input type="text" id="input" name="musicStyle" value="@Model.User.MusicStyle"/>
                                                         <label class="control-label" for="input">Estilo músical preferido</label><i class="mtrl-select"></i>
                                                     </div>
                                                 </div>
 
                                                 <div class="form-group">
-                                                    <textarea rows="4" id="textarea" name="about"></textarea>
+                                                    <textarea rows="4" id="textarea" name="about" >@Model.User.About</textarea>
                                                     <label class="control-label" for="textarea">Sobre Mim</label><i class="mtrl-select"></i>
                                                 </div>
                                                 <div class="form-group">

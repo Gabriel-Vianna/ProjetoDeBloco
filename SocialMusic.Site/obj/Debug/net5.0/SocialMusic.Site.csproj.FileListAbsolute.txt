@@ -128,6 +128,7 @@ C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\bin\Debug\net5.0\run
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\SocialMusic.Site.csprojAssemblyReference.cache
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\SocialMusic.Site.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\SocialMusic.Site.AssemblyInfoInputs.cache
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\SocialMusic.Site.AssemblyInfo.cs
@@ -182,8 +183,10 @@ C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\Raz
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\Razor\Views\Account\Index.cshtml.g.cs
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\Razor\Views\Images\Index.cshtml.g.cs
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\Razor\Views\Posts\Index.cshtml.g.cs
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -199,6 +202,3 @@ C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\Soc
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\ref\SocialMusic.Site.dll
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\SocialMusic.Site.pdb
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\SocialMusic.Site.genruntimeconfig.cache
-C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\SocialMusic.Site.csprojAssemblyReference.cache
-C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\Razor\Views\Images\Index.cshtml.g.cs
-C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\Razor\Views\Account\Index.cshtml.g.cs

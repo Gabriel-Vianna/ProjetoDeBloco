@@ -32,6 +32,11 @@ namespace SocialMusic.Site.Controllers
 
             UsersModel user = JsonConvert.DeserializeObject<UsersModel>(content);
 
+            if(user == null)
+            {
+                user = new UsersModel();
+            }
+
             usersViewModel.User = user;
 
             return View(usersViewModel);
