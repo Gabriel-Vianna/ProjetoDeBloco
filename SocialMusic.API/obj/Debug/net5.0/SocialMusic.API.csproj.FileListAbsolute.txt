@@ -63,3 +63,7 @@ C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.API\obj\Debug\net5.0\Soci
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.API\obj\Debug\net5.0\ref\SocialMusic.API.dll
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.API\obj\Debug\net5.0\SocialMusic.API.pdb
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.API\obj\Debug\net5.0\SocialMusic.API.genruntimeconfig.cache
+C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.API\bin\Debug\net5.0\EmbedIO.dll
+C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.API\bin\Debug\net5.0\SpotifyAPI.Web.dll
+C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.API\bin\Debug\net5.0\SpotifyAPI.Web.Auth.dll
+C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.API\bin\Debug\net5.0\Swan.Lite.dll

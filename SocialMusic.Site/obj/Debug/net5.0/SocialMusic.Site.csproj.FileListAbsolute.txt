@@ -203,3 +203,7 @@ C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\ref
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\SocialMusic.Site.pdb
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\SocialMusic.Site.genruntimeconfig.cache
 C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\obj\Debug\net5.0\Razor\Views\Spotify\Index.cshtml.g.cs
+C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\bin\Debug\net5.0\EmbedIO.dll
+C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\bin\Debug\net5.0\SpotifyAPI.Web.dll
+C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\bin\Debug\net5.0\SpotifyAPI.Web.Auth.dll
+C:\Users\gabri\source\repos\ProjetoDeBloco\SocialMusic.Site\bin\Debug\net5.0\Swan.Lite.dll

@@ -36,7 +36,7 @@
                 <div class="container-fluid">
                     <div class="row merged">
                         <div class="col-lg-2 col-sm-3">
-                            <div class="user-avatar">
+                            <div class="user-avatar" style="border-radius: unset !important; margin-top: -60px !important;">
                                 <figure>
                                     <img src="@Model.User.ProfileImage" alt="">
                                     <form class="edit-phto">
@@ -47,6 +47,16 @@
                                         </label>
                                     </form>
                                 </figure>
+                            </div>
+                        </div>
+                        <div class="col-lg-10 col-sm-9">
+                            <div class="timeline-info">
+                                <ul>
+                                    <li class="admin-name">
+                                        <h5>@Model.User.Name</h5>
+                                        <span>Galeria</span>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
